@@ -21,9 +21,9 @@
     "prettier": "npx prettier --write ./src",
     "netease_api:run": "npx @neteaseapireborn/api"
   },
-  "main": "background.js",
+"main": "background.js",
   "engines": {
-    "node": "14 || 16"
+    "node": "24.x"
   },
   "dependencies": {
     "@neteaseapireborn/api": "^4.29.7",
